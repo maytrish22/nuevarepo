@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta'cool</title>
+</head>
+<body>
+    <header>
+        <h1>Ta' cool "Te traje un taco"</h1>
+    </header>
+
+    <img src="./logo tacool.png" alt="Logo ta' cool"/>
+<section>
+    <h2>Menú</h2>
+    <h3>Tacos grandes</h3>
+    <p>Todos incluyen salsa, frijoles y guacamole</p>
+    <ul>
+        <li>Bisteck.................$30</li>
+        <li>Suadero.................$30</li>
+        <li>Chorizo.................$30</li>
+        <li>Lengua.................$30</li>
+        <li>Carnitas.................$30</li>
+
+    </ul>
+
+    <h3>Tacos pequeños</h3>
+    <p>Incluyen salsas</p>
+    <ul>
+        <li>Bisteck.................$15</li>
+        <li>Suadero.................$15</li>
+        <li>Chorizo.................$15</li>
+        <li>Lengua.................$15</li>
+        <li>Carnitas.................$15</li>
+
+    </ul>
+
+    <h3>Especiales</h3>
+    <dl>
+        <dt>Tacos de rib eye.................$40</dt>
+        <dd>-Jugosa carne al término de tu gusto</dd>
+        <dt>Tacos de Kobe....................$80</dt>
+        <dd>-Carne de res japonesa</dd>
+        <dt>Tacos de Salmón..................$50</dt>
+        <dd>-Tacos de carne de salmón de Alaska</dd>
+    </dl>
+</section>
+<hr>
+<section>
+    <h2>Ubicaciones</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Horario</th>
+        </tr>
+
+        <tr>
+            <td>Bellavista</td>
+            <td><a href="https://goo.gl/maps/UUpu2YH2h25csMh87" target="_blank"> Juarez #132, Centro</td>
+            <td>Lunes a domingo 9-22hrs</td>
+        </tr>
+
+        <tr>
+            <td>Talamás</td>
+            <td><a href="https://goo.gl/maps/cBc7S1do2jU3jvXDA" target="_blank">Blvd Zaragoza #610, Libramiento</td>
+            <td>Lunes a domingo 10-21hrs</td>
+        </tr>
+
+        <tr>
+            <td>Torres</td>
+            <td><a href="https://goo.gl/maps/F8ggsrz49eCqkoFG6" target="blank">Av de las Torres #1345, Intermex</td>
+            <td>Martes a domingo10-22hrs</td>
+        </tr>
+     
+    </table>
+</section>
+
+
+<section>
+    <h2>Pedidos</h2>
+    <h3>HAZ TU PEDIDO AQUI</h3>
+
+    <form action="">
+    <p>Elige tu taquería</p>
+<select>
+    <option value="Bellavista">Bellavista</option>
+    <option value="Talamás">Talamás</option>
+    <option value="Torres">Torres</option>
+
+</select>
+
+    <p>Elige tus tacos</p>
+    <input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+    <label for="Bisteck">Bisteck</label>
+    <input type="number" id="BisteckNumber" name="BisteckNumber"placeholder="¿Cuántos?">
+    <br>
+
+    <input type="checkbox" id="Suadero" name="Suadero" value="Suadero">
+    <label for="Suadero">Suadero</label>
+    <input type="number" id="SuaderoNumber" name="SuaderoNumber" placeholder="¿Cuántos?">
+    <br>
+
+    <input type="checkbox" id="Lengua" name="Lengua" value="Lengua">
+    <label for="Lengua">Lengua</label>
+    <input type="number" id="LenguaNumber" name="LenguaNumber" placeholder="¿Cuántos?">
+    <br>
+
+    <input type="checkbox" id="Carnitas" name="Carnitas" value="Carnitas">
+    <label for="Carnitas">Carnitas</label>
+    <input type="number" id="CarnitasNumber" name="CarnitasNumber" placeholder="¿Cuántos?">
+    <br><br><br>
+
+    <input type="checkbox" id="Chorizo" name="Chorizo" value="Chorizo">
+    <label for="Chorizo">Chorizo</label>
+    <input type="number" id="ChorizoNumber" name="ChorizoNumber" placeholder="¿Cuántos?">
+    <br><br>
+
+    <label for="Nombre">Nombre</label><br>
+    <input type="text" id="Nombre" name="Nombre" placeholder="Tu nombre aquí">
+    <br><br>
+
+    <label for="Telefóno">Telefóno</label><br>
+    <input type="text" id="Telefóno" name="Telefóno" placeholder="Tu teléfono aquí">
+<br><br>
+
+    <label for="Dirección">Dirección</label><br>
+    <input type="text" id="Dirección" name="Dirección" placeholder="Tu dirección aquí">
+    <br><br>
+
+    <button type="submit">Enviar pedido</button>
+
+</form>
+</section>
+
+
+</body>
+</html>
